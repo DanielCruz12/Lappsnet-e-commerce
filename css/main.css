@@ -18,6 +18,7 @@ body {
   font-size: 14px;
   line-height: 23px;
   font-weight: 400;
+  
   background: #fff;
   color: #1e1e27;
 }
@@ -155,7 +156,7 @@ header {
 .navbar_menu li a {
   display: block;
   color: #1e1e27;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: 500;
 
@@ -182,14 +183,14 @@ header {
   position: relative;
   width: 40px;
   height: 40px;
-  color: #1e1e27;
+  color: ;
   transition: color 0.3s ease;
 }
 .navbar_user li a:hover {
-  color: #b5aec4;
+  color: #75d400;
 }
 .checkout {
-  color: #b5aec4;
+  color: ##75d400;
 }
 .checkout a {
   background: #eceff6;
@@ -219,9 +220,9 @@ header {
   left: 15px;
 }
 .logo_container a {
-  font-size: 20px;
+  font-size: 30px;
   color: #1e1e27;
-  font-weight: 800;
+  font-weight: 900;
 }
 .logo_container a span {
   color: #484848;
@@ -534,7 +535,7 @@ h1 {
   background: rgba(255, 253, 253, 0.4); /*opacidad*/
 }
 .main_slider_content h6 {
-  font-weight: 700;
+  font-weight: 900;
 }
 .main_slider_content h2 {
   font-weight: 400;
@@ -862,16 +863,16 @@ button img {
   margin-bottom: 2rem;
 }
 .section_title h2 span {
-  font-size: 65px;
+  font-size: 30px;
   font-weight: 600;
   color: rgb(27, 21, 15);
-  font-family: cursive;
+  font-family: normal;
 }
 .section_title h4 span {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   color: rgb(27, 21, 15);
-  font-family: cursive;
+  font-family: normal;
 }
 .section_title::after {
   display: block;
@@ -1635,7 +1636,7 @@ p {
 }
 .pricing .plan {
   background-color: #fff;
-  padding: 2.5rem;
+  padding: 0.5rem;
   margin: 12px;
   border-radius: 5px;
   text-align: center;
@@ -1648,17 +1649,17 @@ p {
 }
 .pricing .plan .price {
   margin-bottom: 1rem;
-  font-size: 30px;
+  font-size: 20px;
 }
 .pricing .plan ul.features {
   list-style-type: none;
   text-align: left;
 }
 .pricing .plan ul.features li {
-  margin: 8px;
+  margin: 10px;
 }
 .pricing .plan ul.features li .fas {
-  margin-right: 4px;
+  margin-right: 8px;
 }
 .pricing .plan ul.features li .fa-check-circle {
   color: #6ab04c;
@@ -1673,25 +1674,25 @@ p {
   margin-top: 1rem;
   background-color: #6ab04c;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
 }
 .pricing .plan.popular {
-  border: 2px solid #6ab04c;
-  position: relative;
+  border: 5px solid #6ab04c;
+  position: Responsive;
   transform: scale(1.08);
 }
 .pricing .plan.popular span {
   position: absolute;
-  top: -20px;
+  top: -5px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #6ab04c;
   color: #fff;
   padding: 4px 20px;
-  font-size: 18px;
-  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 10px;
 }
 .pricing .plan:hover {
   box-shadow: 5px 7px 67px -28px rgba(0, 0, 0, 0.37);
@@ -1721,7 +1722,7 @@ p {
 }
 .card {
   padding: 3.1em 1.25em;
-  text-align: center;
+  text-align: left;
   background: linear-gradient(0deg, #4fbc4b 10px, transparent 10px);
   background-repeat: no-repeat;
   background-position: 0 0.62em;
@@ -1751,7 +1752,7 @@ p {
   transition: 0.5s;
 }
 .card h3 {
-  font-size: 1.3em;
+  font-size: 1.6em;
   margin: 1em 0 1.4em 0;
   font-weight: 600;
   letter-spacing: 0.3px;

@@ -166,7 +166,7 @@ header {
 .navbar_menu li a:hover {
   cursor: pointer;
   color: rgb(255, 255, 255);
-  background-color: #11b756;
+  background-color: #fe6601;
 }
 .navbar_user {
   margin-left: 37px;
@@ -183,7 +183,7 @@ header {
   position: relative;
   width: 40px;
   height: 40px;
-  color: #75d400;
+  color: #fe6601;
   transition: 0.3s ease;
 }
 
@@ -769,13 +769,13 @@ button img {
   border-color: transparent transparent transparent #484848;
 }
 .product_bubble_left::after {
-  border-color: #51a042 #51a042 transparent transparent;
+  border-color: #fe6601 #fe6601 transparent transparent;
 }
 .product_bubble_red {
   background: #484848;
 }
 .product_bubble_green {
-  background: #51a042;
+  background: #fe6601;
 }
 .product_bubble_left {
   left: 15px;
@@ -835,7 +835,7 @@ button img {
 .deal_ofthe_week {
   width: 100%;
   margin-top: 41px;
-  background: linear-gradient(to left, #f9fafa 0%, #46b344 100%);
+  background: linear-gradient(to left, #f9fafa 0%, #ec8714 100%);
 }
 .deal_ofthe_week_img {
   height: 510px;
@@ -1074,7 +1074,7 @@ button img {
 }
 .newsletter_submit_btn:hover {
   width: 180px;
-  background: rgb(36, 175, 101);
+  background: #fe6601;
 }
 
 /*INICIO FOOTER*/
@@ -1113,7 +1113,7 @@ button img {
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  rgb(178, 110, 32);
 }
 
 /* Footer links */
@@ -1179,7 +1179,7 @@ button img {
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
+	color:  #fe6601;
 	text-decoration: none;;
 }
 
@@ -1664,7 +1664,7 @@ p {
   margin-right: 8px;
 }
 .pricing .plan ul.features li .fa-check-circle {
-  color: #6ab04c;
+  color: #fe6601;
 }
 .pricing .plan ul.features li .fa-times-circle {
   color: #eb4d4b;
@@ -1674,14 +1674,14 @@ p {
   width: 100%;
   padding: 12px 35px;
   margin-top: 1rem;
-  background-color: #6ab04c;
+  background-color: #fe6601;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
   font-size: 20px;
 }
 .pricing .plan.popular {
-  border: 5px solid #6ab04c;
+  border: 5px solid #fe6601;
   position: Responsive;
   transform: scale(1.08);
 }
@@ -1690,7 +1690,7 @@ p {
   top: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #6ab04c;
+  background-color: #fe6601;
   color: #fff;
   padding: 4px 20px;
   font-size: 20px;
@@ -1719,7 +1719,7 @@ p {
 .card {
   padding: 3.1em 1.25em;
   text-align: left;
-  background: linear-gradient(0deg, #4fbc4b 10px, transparent 10px);
+  background: linear-gradient(0deg, #fe6601 10px, transparent 10px);
   background-repeat: no-repeat;
   background-position: 0 0.62em;
   box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
@@ -1732,7 +1732,7 @@ p {
   height: 2em;
   width: 2em;
   margin: auto;
-  background-color: #4fbc4b;
+  background-color: #fe6601;
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -1743,7 +1743,7 @@ p {
   content: "";
   height: 1.5em;
   width: 1.5em;
-  border: 0.12em solid #4fbc4b;
+  border: 0.12em solid #fe6601;
   border-radius: 50%;
   transition: 0.5s;
 }
@@ -1785,7 +1785,7 @@ p {
 }
 
  .btn-primary:hover {
-	 background-color: #4fbc4b;
+	 background-color: #f77926;
 }
  .navbar-brand .brand-icon {
 	 width: 150px;
@@ -1810,8 +1810,8 @@ p {
 	 overflow: hidden;
 	 height: 3000px;
 	 width: 3000px;
-	 background-image: radial-gradient(#9af0d6, #4fbc4b);
-	 transform: translateX(-85%) rotate(15deg);
+	 background-image: radial-gradient(#EC9F05, #f06a45);
+	 transform: translateX(-87%) rotate(15deg);
 	 z-index: 1;
 	 border-radius: 5000px;
 }
@@ -1830,7 +1830,7 @@ p {
 	 margin: 30px auto;
 	 text-decoration: none;
 	 padding: 16px 48px;
-	 color: #fde015;
+	 color: #EC9F05;
 	 background-color: #212121;
 	 text-transform: uppercase;
 	 letter-spacing: 1px;
@@ -1844,7 +1844,7 @@ p {
 	 display: inline-flex;
 	 justify-content: center;
 	 align-items: center;
-	 background-color: #4fbc4b;
+	 background-color: #EC9F05;
 	 border-radius: 500px;
 	 position: relative;
 }
@@ -1864,15 +1864,15 @@ p {
 	 height: calc(100% - 40px);
 	 width: calc(100% - 40px);
 	 border-radius: 500px;
-	 background-color: #3bedb7;
+	 background-color: #EC9F05; 
 	 z-index: 1;
-	 background-image: radial-gradient(#02ec88 50%, #1fba5f);
+	 background-image: radial-gradient(#e58116 50%, #9f660c);
 }
  .hero-image-container::after {
 	 height: calc(100% - 80px);
 	 width: calc(100% - 80px);
-	 border-radius: 500px;
-	 background-image: radial-gradient(#02ec88 20%, #02a145);
+	 border-radius: 700px;
+	 background-image: radial-gradient(#ffffff 20%, #f2b24c);
 	 z-index: 2;
 	 box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
 }
@@ -1888,7 +1888,7 @@ p {
 	 margin: auto;
 	 text-align: center;
 	 background-color: #000;
-	 color: #fde015;
+	 color: #fe5e01;
 	 padding: 8px auto;
 }
  
